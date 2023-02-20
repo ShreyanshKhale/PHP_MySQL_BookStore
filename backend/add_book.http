@@ -1,0 +1,11 @@
+POST  http://localhost:4000/addBook
+Content-Type: application/json
+
+{
+	"bookname" : "The Secret",
+	"stock" : "300",
+	"price" : "240",
+	"image" : "the_secret.jpg",
+	"author" : "Robin Sharma",
+	"genre" : "Novel"
+} 

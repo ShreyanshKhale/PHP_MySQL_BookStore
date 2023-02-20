@@ -1,0 +1,6 @@
+GET  http://localhost:4000/findMemberCategory
+Content-Type: application/json
+
+{
+    "username" : "shub"
+}

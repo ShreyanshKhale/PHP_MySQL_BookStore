@@ -1,0 +1,7 @@
+POST  http://localhost:4000/addWalletMoney
+Content-Type: application/json
+
+{
+    "username" : "athu",
+    "money" : "1000"
+}

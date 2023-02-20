@@ -1,0 +1,6 @@
+GET  http://localhost:4000/findStock
+Content-Type: application/json
+
+{
+    "bookname" : "5 Point Someone"
+}

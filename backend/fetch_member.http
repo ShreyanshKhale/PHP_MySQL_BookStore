@@ -1,0 +1,4 @@
+POST  http://localhost:4000/fetchMember
+Content-Type: application/json
+
+{} 

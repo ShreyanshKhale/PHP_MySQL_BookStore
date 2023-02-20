@@ -1,0 +1,7 @@
+POST  http://localhost:4000/addToCart
+Content-Type: application/json
+
+{
+    "username" : "athu",
+    "bookname" : "5 Point Someone"
+}

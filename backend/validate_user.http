@@ -1,0 +1,7 @@
+GET  http://localhost:4000/validateUser
+Content-Type: application/json
+
+{
+    "username" : "shub",
+    "password" : "shub"
+}

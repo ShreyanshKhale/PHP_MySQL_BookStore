@@ -1,0 +1,19 @@
+POST   http://localhost:4000/addMember
+Content-Type: application/json
+
+{
+     "firstName" : "fadsf",
+     "lastName" : "gfsd",
+     "userName" : "abghg",
+     "email" : "abghg@abc.com",
+     "password" : "abghg",
+     "memberCategory" : "Gold",
+     "address" : {
+          "firstLine" : " sadsdfsdfdsaf",
+          "secondLine" : "hnhgbgbfsdg",
+          "city" : "Chennai",
+          "state" : "TN",
+          "country" : "India",
+          "pincode" : "602301" 
+     }
+}
