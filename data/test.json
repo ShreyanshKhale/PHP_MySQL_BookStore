@@ -1,0 +1,144 @@
+{
+	"bookname" : "2 States",
+	"stock" : "100",
+	"price" : "400",
+	"image" : "2_states.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "5 Point Someone",
+	"stock" : "150",
+	"price" : "450",
+	"image" : "5_point_someone.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Celine",
+	"stock" : "100",
+	"price" : "300",
+	"image" : "celine.jpg",
+	"author" : "Peter Heller",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Exit West",
+	"stock" : "200",
+	"price" : "400",
+	"image" : "exit_west.jpg",
+	"author" : "Mohsin Hamid",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Half Girlfriend",
+	"stock" : "200",
+	"price" : "300",
+	"image" : "half_girlfriend.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Lincoln In The Bardo",
+	"stock" : "300",
+	"price" : "450",
+	"image" : "lincoln_in_the_bardo.jpg",
+	"author" : "George Saunders",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Making India Awesome",
+	"stock" : "200",
+	"price" : "400",
+	"image" : "making_india_awesome.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Mrs. Fletcher",
+	"stock" : "500",
+	"price" : "200",
+	"image" : "mrs_fletcher.jpg",
+	"author" : "Tom Parrotta",
+	"genre" : "Novel"
+}
+{
+	"bookname" : New People",
+	"stock" : "250",
+	"price" : "100",
+	"image" : "new_people.jpg",
+	"author" : "Danzy Senna",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "One Indian Girl",
+	"stock" : "250",
+	"price" : "300",
+	"image" : "one_indian_girl.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "One Night At The Call Centre",
+	"stock" : "500",
+	"price" : "100",
+	"image" : "one_night_at_the_call_centre.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Pachinko",
+	"stock" : "430",
+	"price" : "150",
+	"image" : "pachinko.jpg",
+	"author" : "Min Jin Lee",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Revolution 2020",
+	"stock" : "100",
+	"price" : "400",
+	"image" : "revolution_2020.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Sour Heart",
+	"stock" : "390",
+	"price" : "160",
+	"image" : "sour_heart.jpg",
+	"author" : "Walter Wangerin Jr",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "The Forbiden Book",
+	"stock" : "390",
+	"price" : "150",
+	"image" : "the_forbidden_book.jpg",
+	"author" : "Joscelin Godwin",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "Things That Happened Before The Earthquake",
+	"stock" : "320",
+	"price" : "100",
+	"image" : "things_that_happened_before_the_earthquake.jpg",
+	"author" : "Chiara Barzini",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "The 3 Mistakes Of My Life",
+	"stock" : "390",
+	"price" : "160",
+	"image" : "the_3_mistakes_of_my_life.jpg",
+	"author" : "Chetan Bhagat",
+	"genre" : "Novel"
+}
+{
+	"bookname" : "What We Lose",
+	"stock" : "290",
+	"price" : "260",
+	"image" : "what_we_lose.jpg",
+	"author" : "Zinzi Clemmons",
+	"genre" : "Novel"
+}
