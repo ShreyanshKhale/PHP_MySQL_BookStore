@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w32.css">    
+<title>Links website</title>
+<script src="https://unpkg.com/feather-icons"></script>
+
+<style>
+
+body {
+  background-image: url("form.jpg"); /* The image used for background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.name {
+  margin-top: 15px !important;
+}
+
+.w3-theme-d3 {
+  background-color: rgba(42, 169, 219, 0.6) !important;
+}
+
+.w3-theme-d3:hover {
+  background-color: rgba(42, 169, 219, 0.8) !important;
+}
+
+a {
+  font-size: x-large;
+}
+
+.w3-border {
+  border: 3px solid #ccc !important;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.links-container a {
+  width: 80%;
+}
+
+.profession {
+  font-size: 14px;
+}
+
+.subscribe {
+  font-size: 15px;
+}
+
+.submit form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit form button {
+  margin-top: 5px;
+  background-color: rgba(27, 122, 159, 0.9) !important;
+  color: #fff !important;
+}
+
+.submit form button:hover {
+  background-color: rgba(15, 67, 87, 0.9) !important;
+  color: #fff !important;
+}
+.submit form input {
+  width: 100% !important;
+}
+.submit form input::placeholder {
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  gap: 40px;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons a svg {
+  fill: #d0ecf7;
+  transform: scale(1.5);
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .profession {
+    font-size: 24px;
+  }
+}
+</style>
+  </head>
+<body>
+
+<p class="name"><br><span class="w3-padding w3-theme-l1 w3-margin w3-round" style="font-weight: bolder; font-size: x-large; border: 3px solid #1b7a9f;">Enter Member Details!</span></p><br>
+
+
+  <label for="fname">First name:</label><br>
+  <input class="w3-round w3-theme-d3 w3-border" type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input class="w3-round w3-theme-d3 w3-border" type="text" id="lname" name="lname"><br>
+  <label for="uname">Enter user name:</label><br>
+  <input class="w3-round w3-theme-d3 w3-border" type="text" id="uname" name="uname"><br>
+  <label for="email">E-mail:</label><br>
+  <input class=" w3-round w3-theme-d3 w3-border" type="text" id="email" name="email"><br>
+  <label for="pass">Password:</label><br>
+  <input class=" w3-round w3-theme-d3 w3-border" type="text" id="pass" name="pass"><br>
+  <label for="mcat">Member Category:</label><br>
+  <input class="w3-round w3-theme-d3 w3-border" type="text" id="mcat" name="mcat"><br>
+  <p class="name"><br><span class="w3-padding w3-theme-l1 w3-margin w3-round" style="font-weight: bolder; font-size: x-large; border: 3px solid #1b7a9f;"><b>Enter Address</b></p><br>
+  <label for="fline">First Line:</label><br>
+  <input class="w3-input w3-round w3-theme-d3 w3-border" type="text" id="fline" name="fline"><br>
+  <label for="sline">Second Line:</label><br>
+  <input class="w3-input w3-round w3-theme-d3 w3-border" type="text" id="sline" name="sline"><br>
+  <label for="city">City:</label><br>
+  <input class=" w3-round w3-theme-d3 w3-border" type="text" id="city" name="city"><br>
+  <label for="sta">State:</label><br><br>
+  <input class=" w3-round w3-theme-d3 w3-border" type="text" id="sta" name="sta"><br>
+  <label for="coun">Country:</label><br>
+  <input class="w3-round w3-theme-d3 w3-border" type="text" id="coun" name="coun"><br>
+  <label for="pincode">Pincode:</label><br>
+  <input class=" w3-round w3-theme-d3 w3-border"type="text" id="pincode" name="pincode"><br>
+  <button class="w3-padding w3-theme-d5 w3-round w3-button w3-round w3-border" onclick="insertMember()">Submit</button>
+
+
+<p class="name"><br><span class="w3-padding w3-theme-l1 w3-margin w3-round" style="font-weight: bolder; font-size: x-large; border: 3px solid #1b7a9f;">Hello admin!</p>
+
+  <script>
+    function insertMember(){
+
+      let obj = {
+        firstName :  document.getElementById("fname").value,
+        lastName :  document.getElementById("lname").value,
+        userName :  document.getElementById("uname").value,
+        email :  document.getElementById("email").value,
+        password :  document.getElementById("pass").value,
+        memberCategory :  document.getElementById("mcat").value,
+        address : {
+          firstLine : document.getElementById("fline").value,
+          secondLine : document.getElementById("sline").value,
+          city : document.getElementById("city").value,
+          state : document.getElementById("sta").value,
+          country : document.getElementById("coun").value,
+          pincode : document.getElementById("pincode").value
+        }
+      }
+      
+      var xhr = new XMLHttpRequest();
+      var url = 
+      xhr.open("POST", yourUrl, true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({
+         
+      }));
+      
+
+    }
+  </script>
+
+</body>
+</html>
+
